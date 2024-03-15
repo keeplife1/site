@@ -1,0 +1,29 @@
+body{
+	background-color: #dfe49b;
+}
+p, ul{
+	font-size: 23px;
+	color: #264e2c;
+	/*text-shadow: 2px 2px 2px #55761a;*/
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+	text-align: center;
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+.f1{
+	float: right;
+	margin: 10px;
+    border: solid 1px 264e2c;
+	padding: 10px;
+    font-size: 15px;
+}
+a:visited{
+    color: #264e2c;
+}

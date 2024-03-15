@@ -1,0 +1,116 @@
+body{
+	background-color: #dfe49b;
+}
+p{
+	background-color: #9db33e;
+	font-size: 50px;
+	color: #264e2c;
+	text-shadow: 2px 2px 2px #55761a;
+}
+.p1{
+	display: inline-block;
+text-shadow: 2px 2px 2px #55761a;
+}
+.p2{
+	text-align: center;
+}
+.s1{
+border: dotted 2px #dfe49b;
+display: block;
+}
+#first{
+	width: 500px;
+	height: 500px;
+	background-color: #9db33e;
+	border: ridge 20px #55761a;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-width: 20px;
+	border-left: dotted #55761a 20px;
+	border-right: dashed #55761a 20px;
+	border-bottom: groove #55761a 20px;
+	border-top: ridge #55761a 20px;
+	border-width: 20px;
+	margin: 20px;
+	color: #264e2c;
+	text-shadow: 2px 2px 2px #55761a;
+	border-radius: 20%;
+}
+#second{
+	width: 700px;
+	height: 700px;
+	background-color: #9db33e;
+	font-size: 50px;
+	border: ridge 20px #55761a;
+	text-align: center;
+	padding: 50px;
+	border-style: dotted dashed;
+	border-color: #55761a #264e2c;
+	color: #264e2c;
+	text-shadow: 2px 2px 2px #55761a;
+	border-radius: 20%;
+}
+#third{
+	width: 800px;
+	height: 200px;
+	border: dashed 10px #55761a;
+margin: 20px;
+text-shadow: 2px 2px 2px #55761a;
+background-color: #dfe49b;
+opacity: 90%;
+display: flex;
+	justify-content: center;
+align-items: center;
+border-style:  dashed dotted;
+}
+#forth{
+	width: 800px;
+	height: 200px;
+	border: dashed 10px #264e2c;
+margin: 60px;
+text-shadow: 2px 2px 2px #264e2c;
+background-color: #f6f7cd;
+color: #55761a;
+align-items: center;
+display: flex;
+	justify-content: center;
+	border-style: dotted dashed;
+
+}
+#f{
+		width: 700px;
+	height: 700px;
+	background-color: #9db33e;
+	font-size: 50px;
+	text-align: center;
+	margin: 20px;
+	border: ridge 20px #55761a;
+		color: #55761a;
+	text-shadow: 2px 2px 2px #264e2c;
+
+}
+#s{
+	width: 600px;
+	height: 600px;
+	background-color: #dfe49b;
+	font-size: 50px;
+
+}
+#w{
+	width: 500px;
+	height: 500px;
+	background-color: #264e2c;
+	font-size: 50px;
+
+
+}
+#s, #w{
+	margin-left: 50px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #55761a;
+	text-shadow: 2px 2px 2px #264e2c;
+}

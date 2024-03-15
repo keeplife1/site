@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+
+body{
+  /*background-color: #B366FF;*/
+  background-color: #00457E;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+body{
+	background-color: #00457E;
+}
+p{
+	background-color: #2F70AF;
+	font-size: 50px;
+	color: #02315E;
+	text-shadow: 2px 2px 2px #B9848C;
+}
+header{
+  height: 100px;
+  text-align: center;
+}
+
+
+.textvideo{
+  z-index: 2;
+  margin: 10px;
+  margin-top: 50px;
+  font-size: 6vw; 
+  color: #000000;
+  text-shadow: 0px 0px 10px #ffffff;
+  font-family: 'Russo One', sans-serif;
+}
+
+nav{
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 90%;
+  box-shadow: 0px 0px 10px #ffffff;
+  float: left;
+  margin: 70px;
+  margin-top: 10px;
+  background: linear-gradient(to left, #00457E, #806491);
+}
+aside{
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  /*width: 15%;*/
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px #ffffff;
+  float: left;
+  margin: 20px;
+  background: linear-gradient(to right, #00457E, #806491);
+}
+  
+
+h2{
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+main{
+  margin: 110px;
+  
+  width: 85%;
+  font-size: 30px; 
+  text-shadow: 0px 0px 10px #ffffff;
+  float: left;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+.f1{
+  margin: 20px;
+  width: 60%;
+}
+footer{
+    padding: 5px;
+  height: 200px;
+  justify-content: center;
+    clear: both;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+  }
+
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    transition: all 0.5s ease;
+    margin: 20px;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: #02315E;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #02315E 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: #02315E;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #02315E 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+  
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: linear-gradient(225deg,  #5305E5 , #8114EB , #E5A105);
+  color: white;
+}
+
+@media only screen and (max-width:800px){
+  main, nav, aside, section{
+    width: 100%;
+  }
+}
+a{
+text-decoration: none;
+}
+.button {
+  border: none;
+  font-size: 17px;
+  padding: 1em 2em;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  z-index: 1;
+ margin-left: 45%;
+  background: #caf0f8;
+  border-radius: 8px;
+  box-shadow: 2px 2px 0 #333,
+             2px 2px 200px #00457E inset;
+  color: #fff;
+}
+
+.button:active {
+  transform: scale(.98);
+}
+
+.button:hover {
+  box-shadow: 2px 2px 0 #333,
+             2px 2px 200px #f6f7cd inset;
+             color: #000;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  left: -41%;
+  width: 150%;
+  height: 300%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 0 #333,
+  0 0 0 8px #2F70AF inset,
+  0 0 0 16px #00457E inset,
+  0 0 0 24px #02315E inset,
+  0 0 0 32px #B9848C inset,
+  0 0 0 40px #806491 inset;
+  z-index: -1;
+  transition: .2s;
+}
+
+.button:active::before {
+  opacity: .001;
+  box-shadow: 2px 2px 200px #f6f7cd inset;
+}
+
+.button:hover::before {
+  box-shadow: 2px 2px 0 #333,
+  0 0 0 8px #f6f7cd inset,
+  0 0 0 16px #dfe49b inset,
+  0 0 0 24px #9db33e inset,
+  0 0 0 32px #55761a inset,
+  0 0 0 40px #264e2c inset;
+  left: -9%;
+  width: 150%;
+  height: 300%;
+}

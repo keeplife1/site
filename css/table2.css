@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+ body{
+	background-color: #dfe49b;
+}
+p{
+	background-color: #9db33e;
+	font-size: 50px;
+	color: #264e2c;
+	text-shadow: 2px 2px 2px #55761a;
+    text-align: center;
+}                                  
+table{
+	border: double 2px #dfe49b;
+	font-size: 24px;
+	border-collapse: separate;
+	margin: auto;
+	width: 70%;
+	box-shadow: 0px 0px 20px white;
+}
+th, td{
+	border: solid 1px #264e2c;
+	width: 25%;
+	font-family: 'Merriweather', serif;
+}
+caption{
+	color: #264e2c;
+	text-transform: uppercase;
+	text-shadow: 0 0 40px /*#B968EE*/ ;
+    margin: 20px;
+	font-size: 40px;
+    text-shadow: 2px 2px 2px #55761a;
+	font-family: 'Playfair Display', serif;;
+    background-color: #9db33e;
+
+}
+tr:hover{
+	background-color: #9db33e;
+}
+td:hover{
+    font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color: #264e2c;
+	text-shadow: 2px 2px 2px #55761a;
+	font-size: 1.3em;
+}

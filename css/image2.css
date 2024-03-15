@@ -1,0 +1,24 @@
+body{
+	background-color: #dfe49b ;
+}
+p{
+	font-size: 50px;
+background: linear-gradient(#55761a , #9db33e);
+color: #264e2c;
+font-family: "Rubik Mono One" ;
+text-align: center;
+text-shadow: 2px 2px 2px #55761a;
+}
+.im1{
+	width: 50%;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 0px 0px 40px #55761a;
+    margin-bottom: 30px;
+}
+.im2{
+	width: 500px;
+	border: ridge 30px #264e2c;
+    margin: 50px;
+}

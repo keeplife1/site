@@ -1,0 +1,31 @@
+body{
+	background-color:#00457E ;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	color: #B9848C ;
+	text-shadow: 2px 2px 2px #02315E;
+    background-color: #2F70AF;
+}
+ul, ol , dl{
+	font-size: 30px;
+	color: #B9848C ;
+	text-shadow: 2px 2px 2px #02315E;
+}
+.l1 li{
+	padding-left: 15px;
+}
+ol{
+	margin-left: 75px;
+}
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: 🤍	 💜 💚	 💙 💛	 🖤	 🤎	 💗	 🧡 💖;
+  suffix: " ";
+}
+
+ul.l3{
+  list-style: circled-digits;
+
+}
